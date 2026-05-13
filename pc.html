@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilgisayarlar</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <h1>Second</h1>
+        <p class="tagline">2. el elektronik alım-satım'da yeni devir.</p>
+    </header>
+
+    <main class="layout">
+        <nav class="side-nav" aria-label="Ana menü">
+            <h2>Menü</h2>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="products.html">Ürünler</a></li>
+                <li><a href="phone.html">Telefon</a></li>
+                <li><a class="active" href="pc.html">Bilgisayar</a></li>
+                <li><a href="tablet.html">Tablet</a></li>
+                <li><a href="extensions.html">Ek Parçalar</a></li>
+                <li><a href="homepieces.html">Ev Parçaları</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="login.php">Hesabım</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </nav>
+
+        <section class="content">
+            <header class="content-header">
+                <div class="content-header-top">
+                    <h2>Bilgisayarlar</h2>
+                    <form class="search" action="#" method="get">
+                        <label for="q-pc">Ara:</label>
+                        <input id="q-pc" name="q" type="search" placeholder="Örn: ThinkPad, MacBook, oyuncu PC..." />
+                        <button type="submit">Bul</button>
+                    </form>
+                </div>
+                <p>Ofis işleri, yazılım geliştirme, eğitim ve oyun için uygun ikinci el bilgisayar seçeneklerini tek sayfada bulabilirsin.</p>
+            </header>
+
+            <article class="content-article">
+                <h3>Bilgisayar ilanları</h3>
+                <div class="cards">
+                    <div class="card" data-price="17500" data-needs-repair="false">
+                        <h4>MacBook Air M1</h4>
+                        <p class="meta">Bilgisayar • İstanbul • <strong class="price">17.500 TL</strong></p>
+                        <p>8 GB RAM, 256 GB SSD, pil durumu iyi, öğrenci kullanımı için ideal.</p>
+                        <button class="btn inspect-btn" type="button">İncele</button>
+                    </div>
+                    <div class="card" data-price="12800" data-needs-repair="true" data-issue="Batarya değişimi tavsiye ediliyor">
+                        <h4>Dell Latitude 5420</h4>
+                        <p class="meta">Bilgisayar • Eskişehir • <strong class="price">12.800 TL</strong></p>
+                        <p>i5 11. nesil, 16 GB RAM, 512 GB SSD, kurumsal seri.</p>
+                        <button class="btn inspect-btn" type="button">İncele</button>
+                    </div>
+                    <div class="card" data-price="24900" data-needs-repair="false">
+                        <h4>Masaüstü Oyun Sistemi</h4>
+                        <p class="meta">Bilgisayar • Antalya • <strong class="price">24.900 TL</strong></p>
+                        <p>Ryzen 5 5600, RTX 3060, 16 GB RAM, 1 TB NVMe SSD.</p>
+                        <button class="btn inspect-btn" type="button">İncele</button>
+                    </div>
+                </div>
+
+                <div class="info-grid">
+                    <section class="info-box">
+                        <h4>Satın almadan önce</h4>
+                        <ul>
+                            <li>SSD sağlık durumu ve pil ömrü kontrol edilmeli.</li>
+                            <li>Fan sesi ve ısınma davranışı gözlemlenmeli.</li>
+                            <li>Ekran menteşesi ve klavye tuşları test edilmeli.</li>
+                        </ul>
+                    </section>
+                    <section class="info-box">
+                        <h4>Kullanım senaryoları</h4>
+                        <p>Ofis odaklı hafif modellerden, yazılım ve render işlerinde kullanılabilecek güçlü cihazlara kadar farklı seçenekler bulunur.</p>
+                    </section>
+                </div>
+            </article>
+
+            <footer class="content-footer">
+                <small>Bilgisayar alırken performans kadar termal durum ve pil sağlığına da dikkat et.</small>
+            </footer>
+        </section>
+
+        <aside class="sidebar">
+            <h2>Alt Kategoriler</h2>
+            <ul>
+                <li>Ultrabook</li>
+                <li>Oyuncu laptopu</li>
+                <li>Masaüstü sistem</li>
+                <li>Öğrenci bilgisayarı</li>
+            </ul>
+
+            <h2>Kısa Tavsiye</h2>
+            <ul>
+                <li>Minimum 16 GB RAM, uzun ömürlü kullanım için avantaj sağlar.</li>
+                <li>SSD kapasitesi ve ekran çözünürlüğü günlük deneyimi doğrudan etkiler.</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Second. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
