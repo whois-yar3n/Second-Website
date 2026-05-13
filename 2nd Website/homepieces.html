@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ev Eşyaları</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <h1>Second</h1>
+        <p class="tagline">2. el elektronik alım-satım'da yeni devir.</p>
+    </header>
+
+    <main class="layout">
+        <nav class="side-nav" aria-label="Ana menü">
+            <h2>Menü</h2>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="products.html">Ürünler</a></li>
+                <li><a href="phone.html">Telefon</a></li>
+                <li><a href="pc.html">Bilgisayar</a></li>
+                <li><a href="tablet.html">Tablet</a></li>
+                <li><a href="extensions.html">Ek Parçalar</a></li>
+                <li><a class="active" href="homepieces.html">Ev Parçaları</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="login.php">Hesabım</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </nav>
+
+        <section class="content">
+            <header class="content-header">
+                <div class="content-header-top">
+                    <h2>Ev Parçaları</h2>
+                    <form class="search" action="#" method="get">
+                        <label for="q-home">Ara:</label>
+                        <input id="q-home" name="q" type="search" placeholder="Örn: robot süpürge, hoparlör..." />
+                        <button type="submit">Bul</button>
+                    </form>
+                </div>
+                <p>Evde günlük hayatı kolaylaştıran küçük elektronikler, akıllı cihazlar ve medya ürünleri için seçili ikinci el ilanlar burada.</p>
+            </header>
+
+            <article class="content-article">
+                <h3>Ev teknolojileri</h3>
+                <div class="cards">
+                    <div class="card" data-price="8400" data-needs-repair="false">
+                        <h4>Robot Süpürge</h4>
+                        <p class="meta">Ev Teknolojisi • İstanbul • <strong class="price">8.400 TL</strong></p>
+                        <p>Haritalama özellikli, mop aparatı mevcut, batarya performansı iyi.</p>
+                        <button class="btn inspect-btn" type="button">İncele</button>
+                    </div>
+                    <div class="card" data-price="3100" data-needs-repair="false">
+                        <h4>Bluetooth Soundbar</h4>
+                        <p class="meta">Ses Sistemi • Samsun • <strong class="price">3.100 TL</strong></p>
+                        <p>TV ve telefon bağlantısı sorunsuz, kumandası dahil.</p>
+                        <button class="btn inspect-btn" type="button">İncele</button>
+                    </div>
+                    <div class="card" data-price="2700" data-needs-repair="true" data-issue="Filtre kapağı gevşemiş durumda">
+                        <h4>Hava Temizleyici</h4>
+                        <p class="meta">Ev Teknolojisi • İzmit • <strong class="price">2.700 TL</strong></p>
+                        <p>Orta boy odalar için uygun, sessiz gece modu destekli.</p>
+                        <button class="btn inspect-btn" type="button">İncele</button>
+                    </div>
+                </div>
+
+                <div class="info-grid">
+                    <section class="info-box">
+                        <h4>Bu kategoride neler var?</h4>
+                        <ul>
+                            <li>Akıllı temizlik ürünleri</li>
+                            <li>Ev içi ses sistemleri</li>
+                            <li>Hava kalitesi cihazları</li>
+                        </ul>
+                    </section>
+                    <section class="info-box">
+                        <h4>Tercih nedeni</h4>
+                        <p>Yeni fiyatları yüksek olan ev teknolojilerini daha ulaşılabilir bütçelerle edinmek isteyen kullanıcılar için avantajlıdır.</p>
+                    </section>
+                </div>
+            </article>
+
+            <footer class="content-footer">
+                <small>Ev elektroniğinde aksesuar tamlığı ve sessiz çalışma durumu alışveriş kararını etkiler.</small>
+            </footer>
+        </section>
+
+        <aside class="sidebar">
+            <h2>Popüler Ürün Tipleri</h2>
+            <ul>
+                <li>Robot süpürge</li>
+                <li>Ses sistemi</li>
+                <li>Akıllı priz</li>
+                <li>Hava temizleyici</li>
+            </ul>
+
+            <h2>Kontrol Notu</h2>
+            <ul>
+                <li>Yedek parça ve filtre bulunabilirliğini sor.</li>
+                <li>Şarj standı veya kumanda gibi aksesuarları doğrula.</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Second. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürünler</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <h1>Second</h1>
+        <p class="tagline">2. el elektronik alım-satım'da yeni devir.</p>
+    </header>
+
+    <main class="layout">
+        <nav class="side-nav" aria-label="Ana menü">
+            <h2>Menü</h2>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a class="active" href="products.html">Ürünler</a></li>
+                <li><a href="phone.html">Telefon</a></li>
+                <li><a href="pc.html">Bilgisayar</a></li>
+                <li><a href="tablet.html">Tablet</a></li>
+                <li><a href="extensions.html">Ek Parçalar</a></li>
+                <li><a href="homepieces.html">Ev Parçaları</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="login.php">Hesabım</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </nav>
+
+        <section class="content">
+            <header class="content-header">
+                <div class="content-header-top">
+                    <h2>Tüm Ürünler</h2>
+                    <form class="search" action="#" method="get">
+                        <label for="q-products">Ara:</label>
+                        <input id="q-products" name="q" type="search" placeholder="Örn: MacBook, kulaklık, tablet..." />
+                        <button type="submit">Bul</button>
+                    </form>
+                </div>
+                <p>Second'ta en çok aranan ikinci el teknoloji kategorilerini tek ekranda karşılaştırabilir, bütçene uygun seçenekleri inceleyebilirsin.</p>
+            </header>
+
+            <article class="content-article">
+                <h3>Popüler kategoriler</h3>
+                <div class="cards">
+                    <div class="card" data-price="18500" data-needs-repair="false">
+                        <h4>Akıllı Telefonlar</h4>
+                        <p class="meta">Güncel stok • <strong class="price">18.500 TL+</strong></p>
+                        <p>iPhone, Samsung ve Xiaomi modellerinde farklı kondisyon seçenekleri.</p>
+                        <a class="btn" href="phone.html">Kategoriye Git</a>
+                    </div>
+                    <div class="card" data-price="12000" data-needs-repair="false">
+                        <h4>Bilgisayarlar</h4>
+                        <p class="meta">İş ve oyun sistemleri • <strong class="price">12.000 TL+</strong></p>
+                        <p>Dizüstü, masaüstü ve öğrenci dostu bilgisayar alternatifleri.</p>
+                        <a class="btn" href="pc.html">Kategoriye Git</a>
+                    </div>
+                    <div class="card" data-price="7250" data-needs-repair="false">
+                        <h4>Tabletler</h4>
+                        <p class="meta">Not alma ve multimedya • <strong class="price">7.250 TL+</strong></p>
+                        <p>Kalem destekli ve geniş ekranlı tablet ilanları tek yerde.</p>
+                        <a class="btn" href="tablet.html">Kategoriye Git</a>
+                    </div>
+                </div>
+
+                <div class="info-grid">
+                    <section class="info-box">
+                        <h4>Ek Parçalar</h4>
+                        <p>Ekran kartı, RAM, SSD, kulaklık ve çevre birimleri için düzenli güncellenen ilanlar.</p>
+                    </section>
+                    <section class="info-box">
+                        <h4>Ev Parçaları</h4>
+                        <p>Akıllı temizlik cihazları, medya ekipmanları ve küçük ev teknolojileri için seçili ürünler.</p>
+                    </section>
+                </div>
+
+                <p class="note">İpucu: Ürün kartlarındaki kategori bağlantılarını kullanarak daha detaylı ilanlara doğrudan ulaşabilirsin.</p>
+            </article>
+
+            <footer class="content-footer">
+                <small>Kategori bazlı gezinti ile ihtiyacın olan ürüne daha kısa sürede ulaş.</small>
+            </footer>
+        </section>
+
+        <aside class="sidebar">
+            <h2>Alışveriş Rehberi</h2>
+            <ul>
+                <li>Bütçeni belirle ve kategori seç.</li>
+                <li>Ürün açıklamasında pil, kozmetik ve aksesuar bilgisini kontrol et.</li>
+                <li>Gerekirse "İncele" butonuyla fiyat etkisini değerlendir.</li>
+            </ul>
+
+            <h2>Öne Çıkan Kategoriler</h2>
+            <ul>
+                <li><a href="phone.html">Telefon</a></li>
+                <li><a href="pc.html">Bilgisayar</a></li>
+                <li><a href="extensions.html">Ek Parçalar</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Second. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>

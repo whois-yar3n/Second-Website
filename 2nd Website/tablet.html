@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabletler</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <h1>Second</h1>
+        <p class="tagline">2. el elektronik alım-satım'da yeni devir.</p>
+    </header>
+
+    <main class="layout">
+        <nav class="side-nav" aria-label="Ana menü">
+            <h2>Menü</h2>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="products.html">Ürünler</a></li>
+                <li><a href="phone.html">Telefon</a></li>
+                <li><a href="pc.html">Bilgisayar</a></li>
+                <li><a class="active" href="tablet.html">Tablet</a></li>
+                <li><a href="extensions.html">Ek Parçalar</a></li>
+                <li><a href="homepieces.html">Ev Parçaları</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="login.php">Hesabım</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </nav>
+
+        <section class="content">
+            <header class="content-header">
+                <div class="content-header-top">
+                    <h2>Tabletler</h2>
+                    <form class="search" action="#" method="get">
+                        <label for="q-tablet">Ara:</label>
+                        <input id="q-tablet" name="q" type="search" placeholder="Örn: iPad, Galaxy Tab, kalemli..." />
+                        <button type="submit">Bul</button>
+                    </form>
+                </div>
+                <p>Ders notu tutmak, çizim yapmak veya taşınabilir bir medya cihazı kullanmak isteyenler için farklı boyut ve donanım seçenekleri hazır.</p>
+            </header>
+
+            <article class="content-article">
+                <h3>Tablet ilanları</h3>
+                <div class="cards">
+                    <div class="card" data-price="16250" data-needs-repair="false">
+                        <h4>iPad 9. Nesil - 64 GB</h4>
+                        <p class="meta">Tablet • İstanbul • <strong class="price">16.250 TL</strong></p>
+                        <p>Kalem desteği var, ekran temiz, uzaktan eğitim ve not alma için uygun.</p>
+                        <button class="btn inspect-btn" type="button">İncele</button>
+                    </div>
+                    <div class="card" data-price="7350" data-needs-repair="false">
+                        <h4>Samsung Galaxy Tab S6 Lite</h4>
+                        <p class="meta">Tablet • Konya • <strong class="price">7.350 TL</strong></p>
+                        <p>S Pen dahil, hafif çizikler mevcut, batarya performansı stabil.</p>
+                        <button class="btn inspect-btn" type="button">İncele</button>
+                    </div>
+                    <div class="card" data-price="5900" data-needs-repair="true" data-issue="Şarj soketi temassızlık yapıyor">
+                        <h4>Huawei MatePad 10.4</h4>
+                        <p class="meta">Tablet • Adana • <strong class="price">5.900 TL</strong></p>
+                        <p>10.4 inç ekran, medya tüketimi için güçlü hoparlör sistemi.</p>
+                        <button class="btn inspect-btn" type="button">İncele</button>
+                    </div>
+                </div>
+
+                <div class="info-grid">
+                    <section class="info-box">
+                        <h4>En çok tercih nedenleri</h4>
+                        <ul>
+                            <li>Ders çalışma ve not alma</li>
+                            <li>Dijital çizim ve tasarım</li>
+                            <li>Film, dizi ve web gezintisi</li>
+                        </ul>
+                    </section>
+                    <section class="info-box">
+                        <h4>Aksesuar önerisi</h4>
+                        <p>Kılıf, ekran koruyucu ve uyumlu kalem desteği tablet deneyimini ciddi biçimde iyileştirir.</p>
+                    </section>
+                </div>
+            </article>
+
+            <footer class="content-footer">
+                <small>Tablet alışverişinde kalem desteği ve batarya performansı kullanım amacına göre belirleyicidir.</small>
+            </footer>
+        </section>
+
+        <aside class="sidebar">
+            <h2>Önerilen Kullanım</h2>
+            <ul>
+                <li>Üniversite öğrencileri</li>
+                <li>Dijital illüstrasyon</li>
+                <li>Çocuklar için kontrollü medya kullanımı</li>
+            </ul>
+
+            <h2>Dikkat Edilecekler</h2>
+            <ul>
+                <li>Ekran gölgesi ve dokunmatik hassasiyetini kontrol et.</li>
+                <li>Kalem dahilse orijinal olup olmadığını sor.</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Second. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>

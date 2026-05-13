@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilgisayar Bileşenleri</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <h1>Second</h1>
+        <p class="tagline">2. el elektronik alım-satım'da yeni devir.</p>
+    </header>
+
+    <main class="layout">
+        <nav class="side-nav" aria-label="Ana menü">
+            <h2>Menü</h2>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="products.html">Ürünler</a></li>
+                <li><a href="phone.html">Telefon</a></li>
+                <li><a href="pc.html">Bilgisayar</a></li>
+                <li><a href="tablet.html">Tablet</a></li>
+                <li><a class="active" href="extensions.html">Ek Parçalar</a></li>
+                <li><a href="homepieces.html">Ev Parçaları</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="login.php">Hesabım</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </nav>
+
+        <section class="content">
+            <header class="content-header">
+                <div class="content-header-top">
+                    <h2>Ek Parçalar</h2>
+                    <form class="search" action="#" method="get">
+                        <label for="q-ext">Ara:</label>
+                        <input id="q-ext" name="q" type="search" placeholder="Örn: ekran kartı, SSD, kulaklık..." />
+                        <button type="submit">Bul</button>
+                    </form>
+                </div>
+                <p>Bilgisayarını güçlendirmek ya da çalışma alanını tamamlamak için ihtiyaç duyduğun bileşen ve çevre birimlerini burada bulabilirsin.</p>
+            </header>
+
+            <article class="content-article">
+                <h3>Parça ve aksesuar ilanları</h3>
+                <div class="cards">
+                    <div class="card" data-price="6400" data-needs-repair="false">
+                        <h4>NVIDIA RTX 3060 12 GB</h4>
+                        <p class="meta">Ekran kartı • Kocaeli • <strong class="price">6.400 TL</strong></p>
+                        <p>Madencilik görmemiş, kutulu, sıcaklık değerleri dengeli.</p>
+                        <button class="btn inspect-btn" type="button">İncele</button>
+                    </div>
+                    <div class="card" data-price="2200" data-needs-repair="false">
+                        <h4>1 TB NVMe SSD</h4>
+                        <p class="meta">Depolama • Kayseri • <strong class="price">2.200 TL</strong></p>
+                        <p>Sağlık durumu %96, yüksek okuma-yazma hızları korunmuş.</p>
+                        <button class="btn inspect-btn" type="button">İncele</button>
+                    </div>
+                    <div class="card" data-price="1350" data-needs-repair="true" data-issue="Kulak pedlerinde yıpranma var">
+                        <h4>Oyuncu Kulaklığı</h4>
+                        <p class="meta">Aksesuar • Mersin • <strong class="price">1.350 TL</strong></p>
+                        <p>7.1 çevresel ses, mikrofon çalışıyor, kutu mevcut.</p>
+                        <button class="btn inspect-btn" type="button">İncele</button>
+                    </div>
+                </div>
+
+                <div class="info-grid">
+                    <section class="info-box">
+                        <h4>Sık aranan parçalar</h4>
+                        <ul>
+                            <li>RAM kitleri</li>
+                            <li>Monitörler</li>
+                            <li>Mekanik klavyeler</li>
+                            <li>Harici diskler</li>
+                        </ul>
+                    </section>
+                    <section class="info-box">
+                        <h4>Uyumluluk uyarısı</h4>
+                        <p>Anakart, güç kaynağı ve bağlantı arayüzü uyumluluğunu doğrulamadan bileşen satın alma.</p>
+                    </section>
+                </div>
+            </article>
+
+            <footer class="content-footer">
+                <small>Bileşen alışverişinde teknik uyumluluk ve çalışma testleri kritik önemdedir.</small>
+            </footer>
+        </section>
+
+        <aside class="sidebar">
+            <h2>Kategori Başlıkları</h2>
+            <ul>
+                <li>Ekran kartı</li>
+                <li>Depolama</li>
+                <li>Ses ekipmanları</li>
+                <li>Çevre birimleri</li>
+            </ul>
+
+            <h2>Alım İpucu</h2>
+            <ul>
+                <li>SSD ürünlerinde sağlık raporu istemek faydalıdır.</li>
+                <li>Ekran kartlarında sıcaklık ve fan sesi bilgisi önemlidir.</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Second. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
